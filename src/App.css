@@ -1,0 +1,74 @@
+::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in Chrome, Safari, Edge, and Opera */
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.seventeen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #87bcde;
+  width: 400px;
+  height: 400px;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all ease-out 0.5s;
+  padding: 1.5rem;
+  color: #253237;
+}
+
+.infinite {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #805e73;
+  width: 400px;
+  height: 400px;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: all ease-out 0.5s;
+  padding: 1.5rem;
+  color: #253237;
+}
+
+.seventeen > h1,
+.infinite > h1 {
+  color: #253237;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #253237;
+  width: 8rem;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: all ease 300ms;
+  border-radius: 2px;
+}
+
+.seventeen > button:hover,
+.infinite > button:hover {
+  background-color: #3c4649;
+}
+
+.show-hangman {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0.5s;
+}
+
+.show-quiz {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0.5s;
+}
