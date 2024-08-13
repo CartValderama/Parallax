@@ -217,19 +217,28 @@ function App() {
                   band, and their songs. Each wrong guess adds a part to a
                   stickman, and the game ends when the stickman is fully drawn.
                 </p>
-                <button className='btn'>Play Hangman</button>
+                <button
+                  className='btn'
+                  onClick={() => {
+                    window.location.href =
+                      'https://hangman-seventeen.netlify.app/'
+                  }}
+                >
+                  Play Hangman
+                </button>
               </div>
               <div className={`infinite  ${show && 'show-quiz'} `}>
                 <h1>Quiz: Infinite</h1>
                 <p>
-                  This is a quiz game about Infinite, the K-pop boy band. Answer
-                  questions about the group, their members, and their songs.
-                  Test your knowledge and see how much you know about Infinite!
+                  This is a quiz game about Infinite. Answer questions about the
+                  group, their members, and their songs. Test your knowledge and
+                  see how much you know about Infinite!
                 </p>
                 <button
                   className='btn'
                   onClick={() => {
-                    window.location.href = 'https://hangman-cart.netlify.app/'
+                    window.location.href =
+                      'https://hangman-seventeen.netlify.app/'
                   }}
                 >
                   Play Quiz
