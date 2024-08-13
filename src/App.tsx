@@ -1,5 +1,5 @@
 import './App.css'
-import React, { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 const url = (name: string, wrap = false) =>
