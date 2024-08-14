@@ -238,7 +238,7 @@ function App() {
                   className='btn'
                   onClick={() => {
                     window.location.href =
-                      'https://hangman-seventeen.netlify.app/'
+                      'https://harmonious-pithivier-c342a5.netlify.app'
                   }}
                 >
                   Play Quiz
