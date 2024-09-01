@@ -93,7 +93,7 @@ function App() {
               textShadow: '2px 2px 8px #1B1212',
             }}
           >
-            Happy Birthday!
+            Welcome!
           </h1>
         </ParallaxLayer>
         {/* ------------------- first section ---------------------------- */}
@@ -118,7 +118,7 @@ function App() {
                 color: 'yellow',
               }}
             >
-              Hindi naliligo
+              Random Text
             </h3>
           </div>
         </ParallaxLayer>
@@ -135,7 +135,7 @@ function App() {
               color: 'green',
             }}
           >
-            Eldest daughter
+            Text One
           </h1>
           <h1
             style={{
@@ -146,7 +146,7 @@ function App() {
               color: 'red',
             }}
           >
-            Baliw sa Kpop
+            Text Two
           </h1>
         </ParallaxLayer>
         <ParallaxLayer offset={0.5} speed={0.35} style={{ opacity: 0.1 }}>
@@ -158,7 +158,7 @@ function App() {
               fontSize: '2rem',
             }}
           >
-            Eldest daughter
+            Text One
           </h1>
           <h1
             style={{
@@ -168,7 +168,7 @@ function App() {
               fontSize: '2.5rem',
             }}
           >
-            Baliw sa Kpop
+            Text Two
           </h1>
         </ParallaxLayer>
         <ParallaxLayer offset={0.8} speed={0.2} style={{ opacity: 0.5 }}>
@@ -181,7 +181,7 @@ function App() {
               color: 'pink',
             }}
           >
-            Masarap
+            Text Three
           </h2>
           <h3
             style={{
